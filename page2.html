@@ -2,27 +2,17 @@
     <head>
         <title>Albüm</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-       <!-- <meta name="viewport" content="width=device-width, initial-scale=1">albüm-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="main.css">  
-        <style>
-div.gallery {
-  margin: 5px;
-  float: left;
-  width: 180px;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <style>
 
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -55,20 +45,181 @@ div.gallery img {
     </ol>
   </nav><br>
 
+  <div class="container" style="width: 60%;">
+   
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <center class="yazılar"><h2>Cinque Terre Albümü</h2>  </center> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" >
+        <div class="item active">
+          <img src="./fotoğraflar/Cinque Terre, İtalya.jpg" alt="Cinque Terre" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Corniglia</h3>
+            <p>Cinque Terre</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="./fotoğraflar/Cinque Terre-1.jpg" alt="Monterosso Fegina Beach" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Monterosso Fegina Beach</h3>
+            <p>Cinque Terre</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="./fotoğraflar/Cinque Terre-3-Monterosso Al Mare  Il Gigante Beach.jpg" alt="Il Gigante Beach" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Il Gigante Beach</h3>
+            <p>Cinque Terre</p>
+          </div>
+       </div>
 
-  <div class="gallery">
-    <a id="foto1" href="./fotoğraflar/albüm1.jpg" onclick="fonksiyon">
-      <img src="./fotoğraflar/albüm1.jpg" alt="deneme" width="600" height="400" >
-    </a>
-  </div>
-  <div class="gallery" >
-    <a id="foto1" href="./fotoğraflar/albüm1.jpg" onclick="fonksiyon">
-      <img src="./fotoğraflar/albüm1.jpg" alt="deneme" width="600" height="400" >
-    </a>
-  </div>
-<script>
+      <div class="item">
+        <img src="./fotoğraflar/Cinque Terre-2-train.jpg" alt="Train" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Ulaşım</h3>
+          <p>Cinque Terre</p>
+        </div>
+     </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </div>
+    <!---------------------------albüm-2-------------------------------------------------------------->
+    <br><br>
 
-</script>
+    
+    <div id="myCarousel-2" class="carousel slide" data-ride="carousel">
+      <center class="yazılar"><h2>Banff Ulusal Parkı Albümü</h2>  </center>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel-2" data-slide-to="1"></li>
+        <li data-target="#myCarousel-2" data-slide-to="2"></li>
+        <li data-target="#myCarousel-2" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" >
+        <div class="item active">
+          <img src="./fotoğraflar/banff-national-park-1.jpg" alt="banff-national-park-1" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Peyto Gölü</h3>
+            <p>Banff Ulusal Parkı</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="./fotoğraflar/banf-rafting-2.jpg" alt="banff-rafting" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Rafting</h3>
+            <p>Banff Ulusal Parkı</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="./fotoğraflar/banf-3.jpg" alt="otel" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Konaklama</h3>
+            <p>Banff Ulusal Parkı</p>
+          </div>
+       </div>
+
+      <div class="item">
+        <img src="./fotoğraflar/banff-4.jpg" alt="gökyüzü" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Gökyüzü</h3>
+          <p>Banff Ulusal Parkı</p>
+        </div>
+     </div> 
+     <!-- Left and right controls -->
+     <a class="left carousel-control" href="#myCarousel-2" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel-2" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+    <!---------------------------albüm-3-------------------------------------------------------------->
+    <br><br>
+    <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
+      <center class="yazılar"><h2>Kapadokya Albümü</h2>  </center>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel-3" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel-3" data-slide-to="1"></li>
+        <li data-target="#myCarousel-3" data-slide-to="2"></li>
+        <li data-target="#myCarousel-3" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" >
+        <div class="item active">
+          <img src="./fotoğraflar/kapadokya-1.jpg" alt="kapadokya" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Kapadokya Manzarası</h3>
+            <p>Kapadokya</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="./fotoğraflar/kapadokya-2.jpg" alt="kapadokya-balonlar" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Balonlar</h3>
+            <p>Kapadokya</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img src="./fotoğraflar/kapadokya-3.jpg" alt="kapadokya-konaklama" style="width:100%;">
+          <div class="carousel-caption">
+            <h3>Otel</h3>
+            <p>Kapadokya</p>
+          </div>
+       </div>
+
+      <div class="item">
+        <img src="./fotoğraflar/kapadokya-4.jpg" alt="kapadokya-yeraltı" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Yeraltı şehri</h3>
+          <p>Kapadokya</p>
+        </div>
+     </div> 
+     <!-- Left and right controls -->
+     <a class="left carousel-control" href="#myCarousel-3" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel-3" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+      
+
+  </div>
+
 </body>
 
 </html>
